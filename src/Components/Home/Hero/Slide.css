@@ -1,0 +1,71 @@
+.Slide1 {
+  height: 800px;
+  width: 100px;
+  color: #fff;
+  background-image: url(../../Images/back1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Slide2 {
+  height: 800px;
+  width: 100%;
+  color: #fff;
+  background: url(../../Images/back2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.SliderWord {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: 70%;
+  font-size: larger;
+}
+
+.SliderHeader {
+  font-size: 50px;
+  color: #fff;
+}
+
+.SliderPara {
+  font-size: 20px;
+}
+
+.SliderButtonHolder {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.Donate {
+  background-color: #4caf50;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  width: 200px;
+}
+
+.ReadMore {
+  width: 200px;
+  background-color: transparent;
+  border-radius: 8px;
+  border-color: #fff;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
